@@ -119,3 +119,41 @@ article .descricao {
     text-align: center;
     font-weight: 400;
 }
+
+
+.metricas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.metricas div {
+    width: 280px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+
+.metricas h3 {
+    font-weight: 600;
+    font-size: 60px;
+    color:#8E2424;
+}
+
+.metricas span {
+    font-weight: 500;
+    color:#101828;
+    font-size: 18px;
+}
+
+.metricas p {
+    font-weight: 400;
+    font-size: 16px;
+    color:#667085;
+    text-align: start;
+    width: 260px;
+}
