@@ -89,9 +89,13 @@ main {
     width: 100%;
 }
 
+.sobre_nos {
+    height: 407px;
+}
+
 article {
     width: 100%;
-    height: 407px;
+    /* height: 407px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,9 +128,10 @@ article .descricao {
 .metricas {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    gap: 20px;
+    gap: 32px;
+    height: 288px;
 }
 
 .metricas div {
@@ -157,3 +162,217 @@ article .descricao {
     text-align: start;
     width: 260px;
 }
+
+
+.container_vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    gap: 24px;
+    margin-bottom: 90px;
+}
+
+.talentos span {
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.talentos h3 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.talentos p {
+    font-weight: 400;
+    font-size: 20px;
+    color:#667085;
+}
+
+
+
+.vagas_abertas {
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+
+.vaga_container {
+    width: 780px;
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.vaga_container h2 {
+    color:#101828;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.vaga {
+    width: 768px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.vaga .titulo {
+    color:#101828;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vaga .informacoes {
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.informacoes span {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container_vagas_class {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top:30px;
+}
+
+.depoimentos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 10px 0;
+}
+
+.container_depoimento {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #C3191908;
+    padding: 64px;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descricao span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.descricao h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    text-align: center;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.pessoa .nome {
+    color:#101828;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pessoa .cargo {
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rodape {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    width: 100%;
+    height: 400px;
+    
+    font-family: 'Inter', sans-serif;
+    background: #F9FAFB;
+}
+
+.title_rodape {
+    font-weight: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+.paragrafo_rodape {
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    
+}
+
+.form_rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape .input {
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 360px;
+    height: 48px;
+    padding: 10px 15px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.btn-rodape {
+    width: 116px;
+    height: 48px;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #8E2424;
+        
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.direitos_autorais {
+    font-weight: 400;
+    font-size: 16px;
+    color: #98A2B3;
+}
+
